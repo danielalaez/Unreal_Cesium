@@ -20,7 +20,8 @@ El objetivo es ofrecer un entorno de aprendizaje práctico para la creación de 
 - `AirTraffic.zip` → Proyecto de **Unreal Engine 5**, incluyendo:  
   - Configuración básica de Cesium y georreferenciación.  
   - Blueprints para consumir APIs externas (ej. OpenSky) y visualizar objetos dinámicos en el mundo.  
-  - Ejemplos de visualización interactiva.  
+  - Ejemplos de visualización interactiva.
+  - Link al vídeo de WebODM: https://youtu.be/48DFShBO9hM
 
 ---
 

@@ -4,6 +4,10 @@ This repository contains both the **documentation** and the **Unreal Engine 5 pr
 
 **"Interactive Visualizations with CESIUM and Unreal Engine"**
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/danielalaez/Unreal_Cesium/main/img/header.png" alt="Header">
+</p>
+
 ---
 
 ## Context

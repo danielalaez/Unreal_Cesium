@@ -1,53 +1,52 @@
-# Visualizaciones interactivas con CESIUM y Unreal Engine
+# Interactive Visualizations with CESIUM and Unreal Engine
 
-Este repositorio contiene tanto la **documentación** como el **proyecto de Unreal Engine 5** desarrollado para el módulo de formación:
+This repository contains both the **documentation** and the **Unreal Engine 5 project** developed for the training module:
 
-**"Visualizaciones interactivas con CESIUM y Unreal Engine"**
-
----
-
-## Contexto
-
-El módulo forma parte del proyecto **TwIN** impulsado por **TwIN Lab**, dentro de la iniciativa de **gemelos digitales** del **Gobierno de Navarra** y el **Ayuntamiento de Pamplona**.  
-
-El objetivo es ofrecer un entorno de aprendizaje práctico para la creación de **visualizaciones interactivas en 3D** sobre el globo terráqueo mediante la integración de [Cesium for Unreal](https://cesium.com/platform/cesium-for-unreal/) con **Unreal Engine 5**.
+**"Interactive Visualizations with CESIUM and Unreal Engine"**
 
 ---
 
-## Contenido del repositorio
+## Context
 
-- `/Documentation` → Documentación y tutoriales paso a paso.  
-- `AirTraffic.zip` → Proyecto de **Unreal Engine 5**, incluyendo:  
-  - Configuración básica de Cesium y georreferenciación.  
-  - Blueprints para consumir APIs externas (ej. OpenSky) y visualizar objetos dinámicos en el mundo.  
-  - Ejemplos de visualización interactiva.
-  - Link al vídeo de WebODM: https://youtu.be/48DFShBO9hM
+This module was developed as part of the **TwIN** project promoted by **TwIN Lab** within the **digital twins** initiative of the **Government of Navarre** and **Ayuntamiento de Pamplona**.
+
+Its purpose is to provide a hands-on learning environment for creating **interactive 3D visualizations** on the globe through the integration of [Cesium for Unreal](https://cesium.com/platform/cesium-for-unreal/) with **Unreal Engine 5**.
 
 ---
 
-## Objetivos del módulo
+## Repository Contents
 
-- Conocer la integración entre **Cesium** y **Unreal Engine 5**.  
-- Aprender a consumir **APIs de datos geoespaciales en tiempo real**.  
-- Representar objetos interactivos y dinámicos (aviones, vehículos, etc.) sobre el globo.  
-- Desarrollar un flujo de trabajo reutilizable para futuros proyectos de gemelos digitales.  
+- `/Documentation` → Step-by-step documentation and tutorials.  
+- `AirTraffic.zip` → **Unreal Engine 5** project, including:  
+  - Basic Cesium configuration and georeferencing.  
+  - Blueprints for consuming external APIs (e.g., OpenSky) and visualizing dynamic objects in the world.  
+  - Examples of interactive visualization.  
+  - Link to the WebODM video: https://youtu.be/48DFShBO9hM
 
 ---
 
-## Requisitos
+## Module Objectives
+
+- Understand the integration between **Cesium** and **Unreal Engine 5**.  
+- Learn how to consume **real-time geospatial data APIs**.  
+- Represent interactive and dynamic objects (aircraft, vehicles, etc.) on the globe.  
+- Develop a reusable workflow for future digital twin projects.  
+
+---
+
+## Requirements
 
 - [Unreal Engine 5.3+](https://www.unrealengine.com/)  
 - [Cesium for Unreal Plugin](https://cesium.com/platform/cesium-for-unreal/)  
-- Acceso a internet (para consumir APIs externas como OpenSky).  
+- Internet access (to consume external APIs such as OpenSky).  
 
 ---
 
-## Uso
+## Usage
 
-1. Clonar el repositorio:  
+1. Clone the repository:  
    ```bash
-   git clone https://github.com/UPNAdrone/TwIN_Unreal_Cesium.git
-2. Abrir el proyecto en Unreal Engine 5.
-3. Cargar el nivel de ejemplo con Cesium.
-4. Ejecutar la aplicación para visualizar los datos en tiempo real.
-
+   git clone https://github.com/danielalaez/Unreal_Cesium.git
+2. Open the project in Unreal Engine 5.
+3. Load the Cesium sample level.
+4. Run the application to visualize real-time data.
